@@ -1,0 +1,15 @@
+{
+  "siteUrl": "https://casal-olives-web.pages.dev",
+  "header": { "wordmark": "Casal Olives", "ctaText": "Talk to Olive →", "ctaHref": "/#concierge" },
+  "frontHero": {
+    "h1": "Ask Olive anything.",
+    "sub": "Single-estate Mġarr olive oil. Three oils, one Saturday tasting. The grove our grandfather planted in 1962, bottled for the first time in 2024. Olive is the studio concierge — ask her about pairing, shipping, tastings, or the harvest. Scroll if you'd rather browse.",
+    "prompts": [
+      "Which oil for a salad?",
+      "What's the next Saturday tasting?",
+      "What's the difference between Verde and Riserva?",
+      "Do you have a gift for under €40?"
+    ]
+  },
+  "footer": { "disclosure": "© 2026 Casal Olives · Concept site by concierge.studio · this brand is a portfolio piece · single-estate Mġarr olive oil · checkout is disabled · contact form reaches a real inbox at portfolio@concierge.studio · not a registered trader · no VAT/MBR" }
+}

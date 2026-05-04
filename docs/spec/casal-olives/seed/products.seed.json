@@ -1,0 +1,9 @@
+{
+  "oils": [
+    { "slug": "verde", "name": "Verde — Early Harvest 2024", "kind": "oil", "price_cents": 1800 },
+    { "slug": "maturo", "name": "Maturo — Late Harvest 2024", "kind": "oil", "price_cents": 1600 },
+    { "slug": "riserva", "name": "Riserva — Limited 2024", "kind": "oil", "price_cents": 3800 },
+    { "slug": "duo", "name": "The Duo", "kind": "gift", "price_cents": 3200 },
+    { "slug": "tasting", "name": "Saturday Tasting", "kind": "experience", "price_cents": 4500 }
+  ]
+}

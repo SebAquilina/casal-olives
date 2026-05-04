@@ -1,0 +1,53 @@
+:root {
+  /* === Casal Olives brand tokens — single-estate Mġarr olive oil === */
+  --color-bg: #f7f4ec;             /* bone, paper */
+  --color-surface: #fdfbf5;        /* cards, panels */
+  --color-ink: #2a2519;            /* dark olive-brown body text */
+  --color-ink-muted: #6f6650;      /* secondary text */
+  --color-ink-subtle: #8e856f;     /* tertiary, captions */
+  --color-accent: #5a6738;         /* olive leaf green */
+  --color-accent-strong: #485429;
+  --color-line: #e3ddd0;
+  --color-line-strong: #c9c2b0;
+  --color-deep: #1f2a14;           /* deep olive — hero photographic overlay only */
+  --color-overlay: rgba(31, 42, 20, 0.72);
+  --color-focus: #5a6738;
+  --color-error: #8b2929;
+  --color-success: #3a6b3f;
+  --color-warn: #a86417;
+
+  /* Aliases preserved for revert (skill ref 19 § Class 11) */
+  --color-design-spec-accent: #5a6738;
+  --color-design-spec-bg: #f7f4ec;
+
+  /* === Typography === */
+  --font-display: "Playfair Display", "Times New Roman", Georgia, serif;
+  --font-sans: "Inter", "Söhne", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Fluid type scale */
+  --text-display: clamp(2.4rem, 6vw, 4.2rem);
+  --text-h2: clamp(1.6rem, 4vw, 2.4rem);
+  --text-h3: clamp(1.2rem, 2.6vw, 1.5rem);
+  --text-body: 1rem;
+  --text-small: 0.88rem;
+  --text-eyebrow: 0.78rem;
+
+  /* Spacing scale */
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
+  --space-4: 1rem;    --space-5: 1.5rem; --space-6: 2rem;
+  --space-7: 3rem;    --space-8: 4.5rem; --space-9: 6.5rem;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-1: 0 4px 14px rgba(31, 42, 20, 0.05);
+  --shadow-2: 0 8px 24px rgba(31, 42, 20, 0.16);
+  --shadow-3: 0 20px 50px rgba(31, 42, 20, 0.20);
+}
+
+/* Update font import in app/layout.tsx — Playfair Display + Inter */

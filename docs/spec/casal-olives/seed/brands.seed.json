@@ -1,0 +1,25 @@
+{
+  "name": "Casal Olives",
+  "slug": "casal-olives",
+  "tagline": "Single-estate Mġarr olive oil — Verde, Maturo, Riserva",
+  "voice": {
+    "register": "Italianate but unforced",
+    "rules": [
+      "specific over poetic",
+      "two-sentence paragraphs are the norm",
+      "Italianate without faking it",
+      "no food-marketing clichés",
+      "first-person plural for the brand"
+    ],
+    "bannedPhrases": ["lovingly", "passion", "journey", "artisan", "premium", "experience as a verb", "elevate", "curated"]
+  },
+  "palette": { "bg": "#f7f4ec", "ink": "#2a2519", "accent": "#5a6738", "muted": "#6f6650" },
+  "typography": { "display": "Playfair Display", "sans": "Inter" },
+  "concept": {
+    "isConceptSite": true,
+    "operator": "concierge.studio",
+    "tier": "Standard",
+    "checkoutEnabled": false,
+    "leadInbox": "portfolio@concierge.studio"
+  }
+}
