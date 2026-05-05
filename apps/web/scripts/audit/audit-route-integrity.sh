@@ -8,7 +8,7 @@ set -euo pipefail
 cd "$(dirname "$0")/../.."
 
 # Routes that exist for audit/sentinel purposes only (no UI caller required)
-AUDIT_ONLY="/api/agent/probe /api/admin/agent/regenerate-kb"
+AUDIT_ONLY="/api/agent/probe /api/agent/oils /api/agent/tastings /api/admin/agent/regenerate-kb /api/admin/oils /api/admin/tastings /api/admin/journal"
 
 fail=0
 
