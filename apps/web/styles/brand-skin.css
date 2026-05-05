@@ -1,0 +1,104 @@
+/* Casal Olives — Single-estate olive grove monograph skin */
+
+:root {
+  --co-bone: #efe7d8;
+  --co-sage: #4f5b3b;
+  --co-oxblood: #6b261b;
+  --co-gold: #c89a3c;
+  --co-ink: #2a2519;
+}
+
+body {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(200,154,60,0.06), transparent 40%),
+    radial-gradient(circle at 82% 78%, rgba(79,91,59,0.05), transparent 40%),
+    var(--co-bone);
+}
+
+/* Hero: serif brackets, generous whitespace, warm text */
+.front-hero h1 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2.75rem, 5.5vw, 5rem);
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  color: var(--co-ink);
+  font-style: italic;
+}
+.front-hero h1::after {
+  content: ".";
+  color: var(--co-gold);
+}
+
+/* Eyebrow: small caps with ornament dots */
+.eyebrow {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--co-sage);
+  font-weight: 500;
+}
+.eyebrow::before { content: "❦  "; color: var(--co-gold); margin-right: 0.4em; }
+
+/* H2 — italic Playfair, terra-cotta accent rule */
+h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--co-ink);
+  font-style: italic;
+}
+h2::before {
+  content: "";
+  display: block;
+  width: 38px; height: 1px;
+  background: var(--co-oxblood);
+  margin-bottom: 1rem;
+}
+
+/* Lead text: ink dropcap on first paragraph after H1/H2 */
+section > .container > p.lead:first-of-type::first-letter,
+section > .container--narrow > p.lead:first-of-type::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 4em;
+  line-height: 0.85;
+  font-style: italic;
+  color: var(--co-oxblood);
+  margin: 0.05em 0.12em -0.05em 0;
+  font-weight: 500;
+}
+
+/* Oil cards: bottle-shaped tall cards */
+.oil-card-img, .oil-detail-img {
+  aspect-ratio: 3 / 4;
+  background-size: cover !important;
+  background-position: center !important;
+  border: 1px solid var(--co-line);
+  border-radius: 2px;
+}
+
+/* Topographic decoration on body backgrounds */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 50% 50%, transparent 96%, rgba(200,154,60,0.06) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Concierge box */
+.front-hero-input, .front-hero-input-form {
+  border: 1px solid var(--co-sage);
+  background: rgba(255,253,247,0.92);
+  border-radius: 4px;
+}
+
+/* Footer signature */
+footer { font-family: var(--font-display); font-style: italic; }
