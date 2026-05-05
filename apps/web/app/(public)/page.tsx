@@ -89,7 +89,7 @@ export default async function Home() {
           <div className="oils-grid">
             {oils.length > 0 ? oils.map((o) => (
               <article key={o.slug} className="oil-card">
-                <div className="oil-card-img" style={{ backgroundImage: `url(/oils/${o.slug}.jpg)` }} aria-hidden="true" />
+                <div className="oil-card-img" style={{ backgroundImage: `url(/oils/${o.slug}.svg)` }} aria-hidden="true" />
                 <div className="oil-card-body">
                   <h3>{o.name}</h3>
                   <p className="muted">{o.hook}</p>

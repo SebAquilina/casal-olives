@@ -62,7 +62,7 @@ export default async function OilsPage() {
           <div className="oils-detail-grid">
             {rows.map((r) => (
               <article id={r.slug} key={r.slug} className="oil-detail">
-                <div className="oil-detail-img" style={{ backgroundImage: `url(/oils/${r.slug}.jpg)` }} aria-hidden="true" />
+                <div className="oil-detail-img" style={{ backgroundImage: `url(/oils/${r.slug}.svg)` }} aria-hidden="true" />
                 <div className="oil-detail-body">
                   <p className="eyebrow">{r.kind === "oil" ? "Oil" : r.kind === "gift" ? "Gift" : "Experience"}</p>
                   <h2 style={{ marginTop: "var(--space-2)" }}>{r.name}</h2>

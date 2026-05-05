@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sun" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d4c4a0" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#b8a484" stop-opacity="1"/>
+      <stop offset="1" stop-color="#b8a484" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#2d3520" stop-opacity="0.95"/>
+      <stop offset="0.3" stop-color="#2d3520" stop-opacity="1"/>
+      <stop offset="1" stop-color="#1a1108" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sun)"/>
+  <!-- horizon hill -->
+  <path d="M 0 540 Q 300 480 600 510 T 1200 530 L 1200 800 L 0 800 Z" fill="#7a6a45" opacity="0.45"/>
+  <!-- olive grove rows: dotted trees -->
+  <ellipse cx="40" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="85" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="130" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="175" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="220" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="265" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="310" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="355" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="400" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="445" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="490" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="535" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="580" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="625" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="670" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="715" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="760" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="805" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="850" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="895" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="940" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="985" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="1030" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="1075" cy="568" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="1120" cy="560" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="1165" cy="564" rx="8" ry="6" fill="#3d4a25" opacity="0.5"/>
+  <ellipse cx="55" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="100" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="145" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="190" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="235" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="280" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="325" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="370" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="415" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="460" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="505" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="550" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="595" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="640" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="685" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="730" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="775" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="820" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="865" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="910" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="955" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="1000" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="1045" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="1090" cy="608" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="1135" cy="600" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="1180" cy="604" rx="7" ry="5" fill="#3d4a25" opacity="0.6"/>
+  <ellipse cx="70" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="115" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="160" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="205" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="250" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="295" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="340" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="385" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="430" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="475" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="520" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="565" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="610" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="655" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="700" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="745" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="790" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="835" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="880" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="925" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="970" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="1015" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="1060" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="1105" cy="648" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="1150" cy="640" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <ellipse cx="1195" cy="644" rx="6" ry="4" fill="#3d4a25" opacity="0.7"/>
+  <!-- ground line -->
+  <line x1="0" y1="700" x2="1200" y2="700" stroke="#a06820" stroke-width="1" opacity="0.4"/>
+  <!-- bottle -->
+  <g transform="translate(550,180)">
+    <rect x="32" y="0" width="36" height="50" fill="#1a1108" opacity="0.85" rx="2"/>
+    <rect x="20" y="50" width="60" height="30" fill="#1a1108" opacity="0.85"/>
+    <rect x="0" y="80" width="100" height="340" fill="url(#bottle)" rx="3"/>
+    <rect x="10" y="190" width="80" height="120" fill="#d4c4a0" opacity="0.95"/>
+    <rect x="10" y="190" width="80" height="20" fill="#a06820" opacity="0.9"/>
+    <text x="50" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#1a1108">CASAL</text>
+    <text x="50" y="265" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1a1108">OLIVES</text>
+    <text x="50" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#3a2810" letter-spacing="2">— GOZO —</text>
+  </g>
+  <!-- topography lines (hand-drawn estate map) -->
+  <g stroke="#a06820" stroke-width="0.6" fill="none" opacity="0.25">
+    <path d="M 50 100 Q 200 80 350 110 T 700 90 T 1100 130"/>
+    <path d="M 80 130 Q 250 110 400 140 T 750 120 T 1150 160"/>
+    <path d="M 30 170 Q 180 150 330 180 T 680 160 T 1080 200"/>
+  </g>
+</svg>
