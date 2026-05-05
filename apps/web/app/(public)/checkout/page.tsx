@@ -2,7 +2,7 @@ export const dynamic = "force-static";
 import Link from "next/link";
 
 export const runtime = "edge";
-export const metadata = { title: "Checkout — Casal Olives", alternates: { canonical: "/checkout" } };
+export const metadata = { title: "Checkout", alternates: { canonical: "/checkout" } };
 
 export default function CheckoutPage() {
   return (

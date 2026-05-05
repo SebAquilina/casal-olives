@@ -29,12 +29,12 @@ type Row = { slug: string; title: string; excerpt: string; body_md: string; read
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const d = db();
-  if (!d) return { title: "Journal — Casal Olives" };
+  if (!d) return { title: "Journal" };
   try {
     const r = await d.prepare("SELECT title, excerpt FROM journal_posts WHERE slug = ? AND published = 1").bind(params.slug).first<{ title: string; excerpt: string }>();
-    if (r) return { title: `${r.title} — Casal Olives`, description: r.excerpt, alternates: { canonical: `/journal/${params.slug}` } };
+    if (r) return { title: `${r.title}`, description: r.excerpt, alternates: { canonical: `/journal/${params.slug}` } };
   } catch {}
-  return { title: "Journal — Casal Olives" };
+  return { title: "Journal" };
 }
 
 export default async function JournalPost({ params }: { params: { slug: string } }) {

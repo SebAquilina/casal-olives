@@ -46,11 +46,11 @@ const PAIRINGS: Record<string, { food: string; note: string }[]> = {
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const d = db();
-  if (!d) return { title: "Oil — Casal Olives" };
+  if (!d) return { title: "Oil" };
   const o = await d.prepare("SELECT name, hook FROM oils WHERE slug = ?").bind(params.slug).first<Oil>().catch(() => null);
-  if (!o) return { title: "Not found — Casal Olives" };
+  if (!o) return { title: "Not found" };
   return {
-    title: `${o.name} — Casal Olives`,
+    title: `${o.name}`,
     description: o.hook ?? undefined,
     alternates: { canonical: `/oils/${params.slug}` },
   };

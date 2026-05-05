@@ -5,7 +5,7 @@ export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Oils — Casal Olives",
+  title: "Oils",
   description: "Verde, Maturo, Riserva — three oils from a single estate in Mġarr. Plus the Duo gift pairing and Saturday tasting.",
   alternates: { canonical: "/oils" },
 };

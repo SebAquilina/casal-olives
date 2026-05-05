@@ -5,7 +5,7 @@ export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Grove tastings — Casal Olives",
+  title: "Grove tastings",
   description: "Saturday morning tastings at the grove. 90 minutes, 8 seats, three oils, walk through the rows.",
   alternates: { canonical: "/tastings" },
 };

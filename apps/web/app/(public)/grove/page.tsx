@@ -4,7 +4,7 @@ export const runtime = "edge";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "The grove — Casal Olives",
+  title: "The grove",
   description: "Twelve acres in Mġarr, planted 1962 by Toma Cassar. The press, the harvest, the oil, the siblings.",
   alternates: { canonical: "/grove" },
 };

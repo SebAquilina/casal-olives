@@ -4,7 +4,7 @@ import type { D1Database } from "@cloudflare/workers-types";
 export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
-export const metadata = { title: "Journal — Casal Olives", alternates: { canonical: "/journal" } };
+export const metadata = { title: "Journal", alternates: { canonical: "/journal" } };
 
 function db(): D1Database | null {
   const env = process.env as unknown as { DB?: D1Database };
