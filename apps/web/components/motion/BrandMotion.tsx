@@ -16,6 +16,7 @@ export function BrandMotion() {
       document.documentElement.classList.add("co-no-motion");
       return;
     }
+    document.documentElement.classList.add("js-motion");
 
     // IO for entrance reveals
     const reveals = document.querySelectorAll<HTMLElement>(
