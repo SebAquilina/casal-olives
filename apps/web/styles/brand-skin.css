@@ -127,3 +127,91 @@ footer { font-family: var(--font-display); font-style: italic; }
 main > section:first-of-type {
   padding-top: clamp(2rem, 5vw, 3.5rem) !important;
 }
+
+/* === Casal Olives motion language ============================== */
+
+/* Section + heading — slow fade up (warm, agrarian pace) */
+main section {
+  opacity: 0.96;
+  transform: translateY(16px);
+  transition: opacity 900ms ease, transform 1100ms cubic-bezier(.2,.6,.3,1);
+}
+main section.in-view { opacity: 1; transform: none; }
+
+main h1, main h2, main h3 {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 850ms ease, transform 1000ms cubic-bezier(.2,.7,.3,1);
+}
+main h1.in-view, main h2.in-view, main h3.in-view { opacity: 1; transform: none; }
+
+main p.lead, main p.eyebrow {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 850ms 150ms ease, transform 950ms 150ms cubic-bezier(.2,.7,.3,1);
+}
+main p.lead.in-view, main p.eyebrow.in-view { opacity: 1; transform: none; }
+
+/* Lists — rows reveal one after another (stagger via index custom prop) */
+main ul, main ol, main table tbody {
+  opacity: 0;
+  transition: opacity 900ms 200ms ease;
+}
+main ul.in-view, main ol.in-view, main table.in-view tbody { opacity: 1; }
+main ul.in-view li, main ol.in-view li {
+  animation: co-row-in 700ms cubic-bezier(.2,.7,.3,1) both;
+}
+main ul.in-view li:nth-child(1) { animation-delay: 80ms; }
+main ul.in-view li:nth-child(2) { animation-delay: 200ms; }
+main ul.in-view li:nth-child(3) { animation-delay: 320ms; }
+main ul.in-view li:nth-child(4) { animation-delay: 440ms; }
+main ul.in-view li:nth-child(5) { animation-delay: 560ms; }
+main ul.in-view li:nth-child(6) { animation-delay: 680ms; }
+@keyframes co-row-in {
+  from { opacity: 0; transform: translateX(-8px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Oil-card images — gentle bottle tilt + fade (subtle parallax) */
+.oil-card-img, .oil-detail-img {
+  opacity: 0;
+  transform: translateY(20px) rotate(-1deg);
+  transition: opacity 1100ms cubic-bezier(.2,.7,.3,1), transform 1300ms cubic-bezier(.2,.7,.3,1);
+}
+.oil-card-img.in-view, .oil-detail-img.in-view {
+  opacity: 1;
+  transform: rotate(var(--co-tilt, 0deg));
+}
+.oil-card-img:hover, .oil-detail-img:hover {
+  transform: rotate(var(--co-tilt, 0deg)) scale(1.02);
+  transition: transform 350ms ease;
+}
+
+/* Pull-quote & block elements */
+blockquote {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 900ms ease, transform 1000ms ease;
+}
+blockquote.in-view { opacity: 1; transform: none; }
+
+/* Dropcap bloom on first lead's first letter (works because ::first-letter responds to font-size on parent) */
+section > .container > p.lead.in-view:first-of-type::first-letter,
+section > .container--narrow > p.lead.in-view:first-of-type::first-letter {
+  animation: co-dropcap-bloom 1100ms cubic-bezier(.2,.7,.3,1) 200ms both;
+}
+@keyframes co-dropcap-bloom {
+  0%   { color: rgba(107, 38, 27, 0); transform: scale(0.85); }
+  60%  { color: rgba(107, 38, 27, 1); }
+  100% { color: rgba(107, 38, 27, 1); transform: scale(1); }
+}
+
+/* Reduced motion fallback */
+.co-no-motion main *,
+.co-no-motion .oil-card-img,
+.co-no-motion .oil-detail-img {
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+  transition: none !important;
+}
