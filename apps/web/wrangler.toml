@@ -4,7 +4,7 @@ compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
 [vars]
-NEXT_PUBLIC_SITE_URL = "https://casalolives.concierge.studio"
+NEXT_PUBLIC_SITE_URL = "https://casal-olives-web.pages.dev"
 ADMIN_OWNER_EMAILS = "seb.aquilina@gmail.com"
 
 [[d1_databases]]
