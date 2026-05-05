@@ -9,23 +9,26 @@ ADMIN_OWNER_EMAILS = "seb.aquilina@gmail.com"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "studio-vella-db"
-database_id = "e6517bcc-8705-47be-93b0-b76ad3c87123"
+database_name = "casal-olives-db"
+database_id = "11b08402-10b8-4ef2-ad18-732dd257dd0e"
 migrations_dir = "drizzle/migrations"
 
 [[kv_namespaces]]
 binding = "DEAD_LETTER"
-id = "98054099c25d4a14b4919189a85a6e0e"
+id = "1bd6acbf0d6e4f11b164cf9c1aeea787"
 
 [env.preview]
-name = "studio-vella-web-preview"
-
+name = "casal-olives-web-preview"
 [env.preview.vars]
-NEXT_PUBLIC_SITE_URL = "https://preview.studio-vella-web.pages.dev"
+NEXT_PUBLIC_SITE_URL = "https://preview.casal-olives-web.pages.dev"
 ADMIN_OWNER_EMAILS = "seb.aquilina@gmail.com"
 
 [[env.preview.d1_databases]]
 binding = "DB"
-database_name = "studio-vella-db-preview"
-database_id = "ee96f2d5-4649-4388-a8a8-1b8d8cc682df"
+database_name = "casal-olives-preview"
+database_id = "ec783363-09fe-4c50-8157-119fb7b341e9"
 migrations_dir = "drizzle/migrations"
+
+[[env.preview.kv_namespaces]]
+binding = "DEAD_LETTER"
+id = "1bd6acbf0d6e4f11b164cf9c1aeea787"
